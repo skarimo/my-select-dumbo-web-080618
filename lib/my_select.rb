@@ -7,6 +7,7 @@ def my_select(collection)
   idx = 0 
     while idx < collection.legnth 
      new_arr << if yield(collection[idx])
+   end
       idx += 1
      end 
   end
