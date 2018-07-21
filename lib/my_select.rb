@@ -10,4 +10,5 @@ def my_select(collection)
       idx += 1
      end 
   end
+  new_arr
 end
