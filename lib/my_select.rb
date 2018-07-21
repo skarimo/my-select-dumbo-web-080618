@@ -5,7 +5,7 @@ def my_select(collection)
    return nil 
   else 
   idx = 0 
-    while idx < collection.legnth 
+    while idx < collection.length 
      new_arr << if yield(collection[idx])
    end
       idx += 1
