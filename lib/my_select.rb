@@ -7,7 +7,6 @@ def my_select(collection)
   idx = 0 
     while idx < collection.length 
      new_arr << yield(collection[idx])
-   end
       idx += 1
      end 
   end
